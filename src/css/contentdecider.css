@@ -19,7 +19,41 @@
   font-family: georgia;
   font-weight: 500;
   font-size: 14px;
-  margin: 0 0 50px 0;
+  padding: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+.secondrylink {
+  color: #000;
+  font-weight: 500;
+}
+.secondrylink:hover {
+  text-decoration: underline !important;
+}
+.spansecondry {
+  font-size: 18px;
+  line-height: 1.65;
+  margin: 0 0 20px 0;
+  color: #808080;
+  word-break: break-word;
+  hyphens: auto;
+}
+.visual li {
+  padding: 10px;
+}
+.chekout {
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+  background: linear-gradient(to bottom, #27ae60 0%, #26a15f 100%);
+  padding: 5px 15px;
+  font-size: 13px;
+  width: auto;
+  display: table;
+}
+.chekout:hover {
+  color: #fff !important;
 }
