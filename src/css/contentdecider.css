@@ -1,0 +1,25 @@
+.Greetings {
+  font-family: georgia !important;
+  font-size: 150% !important;
+  font-weight: 600 !important;
+  margin: 50px 0 50px 0 !important;
+}
+
+.Greetings__Link {
+  font-size: 100% !important;
+  color: black;
+  margin: 5px;
+  font-weight: 600;
+}
+.Greetings__Link:hover {
+  text-decoration: underline !important;
+}
+.GreetingsHead {
+  color: #808080;
+  font-family: georgia;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0 0 50px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
