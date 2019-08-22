@@ -51,11 +51,11 @@ class ContentDecider extends Component {
               </Grid>
               <Grid item md={12} className={"head"}>
                 <span>
-                  <a href="/reactContext" className={"secondrylink"}>
-                    React Redux
+                  <a href="/Redux" className={"secondrylink"}>
+                    Redux Data Handling Work Flow
                   </a>
                   <span className={"spansecondry"}>
-                    &#160; – How context Redux works
+                    &#160; – Initializing setup of Redux step by step
                   </span>
                 </span>
               </Grid>
@@ -113,18 +113,11 @@ class ContentDecider extends Component {
                   <h2 align={"center"}>Blog</h2>
 
                   <li>
-                    A simple chrome extension helpful to get up to date with the
-                    weather
+                    The blog helps you to discuss the things you find
+                    interesting in life
                   </li>
-                  <li>
-                    It's now easy to get updated with the weather conditions
-                    instantly on your location as well as another location's.
-                  </li>
-                  <li>
-                    Weather app provides detailed weather report & also provides
-                    current temperature in Celsius, wind speed, humidity,
-                    location coordinates.
-                  </li>
+                  <li>You can make notes</li>
+                  <li>Share instantly with other's</li>
                 </ul>
                 <div>
                   <a

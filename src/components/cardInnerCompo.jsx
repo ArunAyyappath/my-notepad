@@ -36,7 +36,6 @@ export default function SliderContent(props) {
           component="img"
           alt={props.head}
           height="265"
-          style={{ filter: "invert(1)" }}
           image={props.img}
           title={props.head}
         />
@@ -56,7 +55,7 @@ export default function SliderContent(props) {
             color="textPrimary"
             component="div"
           >
-            <Composition />
+            <Composition description={props.describe} />
           </Typography>
         </CardContent>
       </CardActionArea>
