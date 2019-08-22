@@ -67,6 +67,7 @@ export default function NavigationBar(props) {
                   style={{ float: "right" }}
                 >
                   <a
+                    style={{ margin: "0" }}
                     className={classes.globalLink}
                     href="https://github.com/ArunAyyappath"
                   >
@@ -84,8 +85,9 @@ export default function NavigationBar(props) {
                     className={classes.globalLink}
                     href="https://twitter.com/arunayyappath"
                   >
-                    Twitter |
-                  </a>
+                    Twitter
+                  </a>{" "}
+                  |
                 </Typography>
               </>
             )}

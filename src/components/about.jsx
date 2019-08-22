@@ -13,7 +13,7 @@ class DetailViewer extends Component {
               variant="h4"
               color="inherit"
               align="center"
-              style={{ marginBottom: "48px" }}
+              style={{ marginBottom: "48px", marginTop: "48px" }}
             >
               About
             </Typography>
