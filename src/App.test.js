@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Home from "./components/homePage";
+import Route from "./components/Route";
 
 it("renders without crashing", () => {
   const div = document.createElement("div");
-  ReactDOM.render(<Home />, div);
+  ReactDOM.render(<Route />, div);
   ReactDOM.unmountComponentAtNode(div);
 });

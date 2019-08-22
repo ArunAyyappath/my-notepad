@@ -1,10 +1,24 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Home from "./components/homePage";
+import Route from "./components/Route";
 import * as serviceWorker from "./serviceWorker";
+import { combineReducers, createStore } from "redux";
+import { Provider } from "react-redux";
+import cardReducer from "./reducers/cardReducer";
 
-ReactDOM.render(<Home />, document.getElementById("root"));
+const rootReducers = combineReducers({
+  view: cardReducer
+});
+//window.__REDUX_DEVTOOLS_EXTENSION__()
+const store = createStore(rootReducers);
+
+ReactDOM.render(
+  <Provider store={store}>
+    <Route />
+  </Provider>,
+  document.getElementById("root")
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

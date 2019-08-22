@@ -1,0 +1,11 @@
+.Navigation__Item-selected {
+  border-bottom: 4px solid #27ae60;
+}
+a:hover {
+  text-decoration: none !important;
+  color: #2941f5;
+}
+a {
+  margin: 0px 0px 0px 30px;
+  padding: 5px;
+}
