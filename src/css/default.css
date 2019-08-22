@@ -2,7 +2,8 @@
   font-size: 18px;
   font: 400 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
     Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  text-align: justify;
+  /*text-align: justify;*/
+  box-sizing: border-box;
 }
 html {
   scroll-behavior: smooth;
