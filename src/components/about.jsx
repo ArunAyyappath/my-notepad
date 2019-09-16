@@ -34,6 +34,15 @@ class DetailViewer extends Component {
               >
                 Appscook Technologies
               </a>
+              &nbsp;and switched to&nbsp;
+              <br />
+              <a
+                href="https://quintetsolutions.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Quintet Solutions
+              </a>
               . A day dreamer, optimistic.I write here so that I can make notes,
               share, discuss the things I find interesting in life.
             </Typography>

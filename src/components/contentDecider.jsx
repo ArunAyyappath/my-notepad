@@ -110,10 +110,10 @@ class ContentDecider extends Component {
                   <img src={img2} alt={"extension"} style={{ width: "80%" }} />
                 </div>
                 <ul className={"visual"}>
-                  <h2 align={"center"}>Blog</h2>
+                  <h2 align={"center"}>Blog App</h2>
 
                   <li>
-                    The blog helps you to discuss the things you find
+                    The blog App helps you to discuss the things you find
                     interesting in life
                   </li>
                   <li>You can make notes</li>
