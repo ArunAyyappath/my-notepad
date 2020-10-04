@@ -110,24 +110,21 @@ class ContentDecider extends Component {
                   <img src={img2} alt={"extension"} style={{ width: "80%" }} />
                 </div>
                 <ul className={"visual"}>
-                  <h2 align={"center"}>Blog App</h2>
+                  <h2 align={"center"}>Blogger App <p className='disabled-component'>(Discontinued)</p></h2>
 
                   <li>
-                    The blog App helps you to discuss the things you find
+                    The blogger App helps you to discuss the things you find
                     interesting in life
                   </li>
                   <li>You can make notes</li>
                   <li>Share instantly with other's</li>
                 </ul>
                 <div>
-                  <a
-                    className={"chekout"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://current-blog.web.app/"
+                  <p
+                    className={"chekout disabled-button"}
                   >
                     Try now
-                  </a>
+                  </p>
                 </div>
               </Grid>
             </Grid>
