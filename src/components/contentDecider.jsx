@@ -7,6 +7,7 @@ import Grid from "@material-ui/core/Grid";
 import ProfileAvatar from "./avatarViewCompo";
 import img1 from "../media/tools/img1.png";
 import img2 from "../media/tools/img2.png";
+import img3 from "../media/tools/img3.png";
 
 class ContentDecider extends Component {
   render() {
@@ -99,6 +100,43 @@ class ContentDecider extends Component {
                   </a>
                 </div>
               </Grid>
+
+              <Grid
+                item
+                md={12}
+                className={"head"}
+                style={{ background: "#E9F4FB", marginBottom: "50px" }}
+              >
+                <div style={{ width: "50%", float: "left" }}>
+                  <img src={img3} alt={"extension"} style={{ width: "80%" }} />
+                </div>
+                <ul className={"visual"}>
+                  <h2 align={"center"}>Movie review bot <p className='disabled-component'>(Telegram)</p></h2>
+
+                  <li>
+                    A simple telegram bot helpful to get up to date with the
+                    movie reviews in imdb, rotten tomatoes, internet movie database, metacritic
+                  </li>
+                  <li>
+                    It's now easy to get updated with the movie ratings before watching netflix :).
+                  </li>
+                  <li>
+                    Movie review bot provides detailed movie reports like the year of release,
+                    origin state,director name, run time & a shot plot about the movie.
+                  </li>
+                </ul>
+                <div>
+                  <a
+                    className={"chekout"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://t.me/movies_reviews_bot"
+                  >
+                    Try now
+                  </a>
+                </div>
+              </Grid>
+
 
               <Grid
                 item
