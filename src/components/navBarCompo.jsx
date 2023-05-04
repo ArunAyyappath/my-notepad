@@ -5,7 +5,8 @@ import "../css/navbar.css";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
-const useStyles = makeStyles(theme => ({
+import { NavLink } from "react-router-dom";
+const useStyles = makeStyles(() => ({
   root: {
     flexGrow: 1,
     minHeight: 40,
@@ -37,9 +38,15 @@ export default function NavigationBar(props) {
                   style={{ float: "right" }}
                   align="right"
                 >
-                  <a className={classes.globalLink} href="/about">
+                  <NavLink
+                    to="/about"
+                    exact
+                    activeClassName="active"
+                    className={classes.globalLink}
+                  >
                     About
-                  </a>
+                  </NavLink>
+
                 </Typography>
                 <Typography
                   variant="body2"
@@ -47,14 +54,24 @@ export default function NavigationBar(props) {
                   align="left"
                   style={{ float: "left" }}
                 >
-                  <a className={classes.globalLink} href="/">
+                  <NavLink
+                    to="/"
+                    exact
+                    activeClassName="active"
+                    className={classes.globalLink}
+                  >
                     Home
-                  </a>
+                  </NavLink>
                 </Typography>
                 <Typography variant="body2" color="inherit">
-                  <a className={classes.globalLink} href="/writings">
+                  <NavLink
+                    to="/writings"
+                    exact
+                    activeClassName="active"
+                    className={classes.globalLink}
+                  >
                     Writings
-                  </a>
+                  </NavLink>
                 </Typography>
               </>
             )}

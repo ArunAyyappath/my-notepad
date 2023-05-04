@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Route from "./components/Route";
+import Path from "./components/Route";
 import * as serviceWorker from "./serviceWorker";
 import { combineReducers, createStore } from "redux";
 import { Provider } from "react-redux";
@@ -15,7 +15,7 @@ const store = createStore(rootReducers);
 
 ReactDOM.render(
   <Provider store={store}>
-    <Route />
+    <Path />
   </Provider>,
   document.getElementById("root")
 );
